@@ -21,13 +21,15 @@ A production-ready Node.js REST API that securely handles file uploads (`multipa
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   
+   git clone https://github.com/Gaurav-Chaudhary1/Document-Upload-Cloudinary.git
+   
    cd your-repo-name
+   
 Install dependencies:
 
-Bash
 npm install
+
 Environment Variables:
 Create a .env file in the root directory and add your Cloudinary credentials:
 
@@ -36,7 +38,8 @@ PORT=3000
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+
 Start the server:
 
-Bash
 npm run start
+
